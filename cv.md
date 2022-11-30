@@ -15,3 +15,7 @@
 
 ## Language:
 English level - A2
+
+## Work experience:
+
+There is nothing related to programming yet. Experience in E-commerce - 6 years. And also worked as a teacher

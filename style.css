@@ -1,1 +1,90 @@
+.page {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family:Arial, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: black;
+}
+.page-body {
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.page-body a {
+  color: black;
+}
+.page-body a:hover,
+.page-body a:focus {
+  text-decoration: none;
+}
+.page-body a:active {
+  color:orange;
+  text-decoration: underline;
+}
+.nav a:visited{
+		color: white;
+		text-decoration: none;
+	}
+.nav {
+  background-color: #F8AA03;
+}
+.nav ul {padding-left: 20px;
+}
+.nav li {
+		display: inline-block;
+		line-height: 50px;
+		margin-right: 30px;
+		font-size: 19px;
+}
+.container {
+	margin: 30px;
+}	
+.photo {
+	border-radius: 50%
+	}
+.main-title {
+	margin-left: 90px;
+	}
+.section-title {
+  position: absolute;
+  left: 600px;
+  top: 150px;
+}
+.section-color {
+  background-color: orange;
+  }
+ /* Footer */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  color: white;
+  background-color: #1e232c;
+}
+.footer__github {
+  position: relative;
+  padding-left: 40px;
+}
+.footer__github::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/github-logo.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.footer__year {
+  justify-self: center;
+}
+.footer__rsschool {
+  justify-self: end;
+  height: 32px;
+}
 
